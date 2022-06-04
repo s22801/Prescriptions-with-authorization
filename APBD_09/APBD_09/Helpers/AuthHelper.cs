@@ -14,11 +14,11 @@ namespace APBD_09.Helpers
             Claim[] claims =
             {
                 new Claim(ClaimTypes.NameIdentifier, "1"),
-                new Claim(ClaimTypes.Name, "Daniel"),
-                new Claim(ClaimTypes.Surname, "Jablonski"),
-                new Claim(ClaimTypes.Email, "jd@pjwstk.edu.pl"),
-                new Claim(ClaimTypes.Role, "admin"),
-                new Claim(ClaimTypes.Role, "lecturer")
+                new Claim(ClaimTypes.Name, "Sylwia"),
+                new Claim(ClaimTypes.Surname, "Stern"),
+                new Claim(ClaimTypes.Email, "ss@pjwstk.edu.pl"),
+                new Claim(ClaimTypes.Role, "user"),
+                new Claim(ClaimTypes.Role, "student")
             };
 
             SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret));
